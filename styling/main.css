@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  color: black;
+}
+
 .header {
   background-color: rgba(150, 150, 150, 1);
   width: 100%;
