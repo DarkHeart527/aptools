@@ -6,10 +6,17 @@
   </head>
   <body>
     <div class="header">
+      <div class="notifications">
+      </div>
+      <div class="time">
+      </div>
       <div class="apps">
       </div>
     </div>
     <div class="page">
     </div>
   </body>
+  <script>
+    const timeInterval = setInterval( function() { document.getElementsByClassName('time')[0].innerHTML = at.getTime('normal'); }, 250);
+  </script>
 </html>
