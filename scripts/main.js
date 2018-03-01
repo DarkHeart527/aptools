@@ -15,3 +15,5 @@ const at = {
   },
   initialLeapYear: 2000,
 }
+
+document.write(at.getTime('normal'));
