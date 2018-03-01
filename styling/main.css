@@ -9,3 +9,9 @@ body {
   height: 30px;
   color: rgba(200, 200, 200, 1);
 }
+
+.time {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+}
