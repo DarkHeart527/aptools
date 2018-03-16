@@ -17,9 +17,6 @@ const at = {
       if (hour > 12) {
         hour = Number(hour) - 12;
       }
-      if (hour < 10) {
-        hour = '0' + hour;
-      }
       let minute = time.getMinutes();
       if (minute < 10) {
         minute = '0' + minute;
